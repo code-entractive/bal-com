@@ -11,12 +11,6 @@
 </head>
  <body>
 
-<core:form commandName="core">
-
-
-
-
-
-</core:form>
+<h1>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Welcome User >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>></h1>
 </body>
 </html>

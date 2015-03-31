@@ -19,14 +19,14 @@ import com.balco.bean.User;
  */
 @Controller
 
-@RequestMapping("/")
+
 public class LoginController {
 
 	public LoginController() {
 		System.out.println("Default constructor of LoginController");
 	}
 
-  @RequestMapping(value="/loginPage")
+  @RequestMapping(value="/")
   public ModelAndView login (ModelMap model ){
 	  System.out.println("login method of LoginController");
 	  
@@ -34,6 +34,7 @@ public class LoginController {
 	  return new ModelAndView("loginPage");
 
   }
+  
   @RequestMapping("/loginAction")
   public ModelAndView loginAction (@ModelAttribute("user")User user ,BindingResult result    ){
 	  System.out.println("loginAction method of LoginController");
