@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-
+<%@ taglib prefix="core" uri="http://www.springframework.org/tags/form" %>
 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -11,11 +11,12 @@
 </head>
  <body>
 
-<form action="loginSuccess">
+<core:form commandName="core">
 
 
-</form>
 
 
+
+</core:form>
 </body>
 </html>
