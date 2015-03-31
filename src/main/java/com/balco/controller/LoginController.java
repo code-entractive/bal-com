@@ -14,16 +14,17 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 
+@RequestMapping("/")
 public class LoginController {
 
 	public LoginController() {
-		System.out.println("Default constructor of LoginController?????????????????????????????????????????????????????????????");
+		System.out.println("Default constructor of LoginController");
 	}
 
-  @RequestMapping(value="/login")
+  @RequestMapping(value="/loginPage")
   public ModelAndView login (){
 	  System.out.println("login method of LoginController");
-	  return new ModelAndView("loginSuccess");
+	  return new ModelAndView("loginPage");
 
   }
   @RequestMapping("/balco-ecom-main")
